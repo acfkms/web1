@@ -1,0 +1,22 @@
+.footer {
+    background-color: #3E0F8D;
+    color: #EEEEEE;
+    padding: 20px 0;
+    text-align: center;
+
+
+}
+.footer-content {
+    max-width: 1000px;
+    margin: 0 200px;
+    padding: 0 20px;
+}
+.copyright {
+    margin: 0 0 10px auto;
+    font-size: 0.7rem;
+}
+.contact-info {
+    margin: 0%;
+    font-size: medium;
+    opacity: 0.9;
+}

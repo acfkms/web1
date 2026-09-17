@@ -1,0 +1,29 @@
+.product-name {
+margin: 0 0 10px 0;
+color: #3E0F8D;
+font-size: 1.2rem;
+}
+.product-prize {
+    margin: auto;
+    color: #E4DA72;
+    font-weight: bold;
+    font-size: medium;
+}
+.product-description {
+    margin: 0%;
+    color: #836ba7;
+    line-height: 1.4;
+}
+.buy-button {
+    background-color: #9564DD;
+    color: #EEEEEE;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color  0.3 ease;
+}
+.buy-button:hover {
+    background-color: #815eb6;
+}
+]

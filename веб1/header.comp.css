@@ -1,0 +1,28 @@
+.header-container {
+    margin:auto;
+    padding: 0 20px;
+    display:flex;
+    justify-content: center;
+}
+.shop-title {
+    margin:0%;
+    font-size:medium;
+    font-weight: bold;
+}
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+.nav-link {
+    color: #EEEEEE;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+
+}
+.nav-link:hover {
+    color: #9564DD;
+}
