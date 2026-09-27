@@ -1,0 +1,93 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #030164;
+}
+.total-count {
+  text-align:center;
+  font-size:large;
+  font-weight:bold;
+  color: #363199;
+}
+.form-container {
+  background-color: #f9f2f1;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom:auto;
+  box-shadow:auto;
+}
+.form-container div {
+  margin-bottom:auto;
+}
+.form-container label {
+  display: inline-block;
+  width:auto;
+  font-weight: bold;
+}
+.form-container input {
+  padding: 8px;
+  border: 1px solid #c9c6c6;
+  border-radius: 4px;
+  width:auto;
+}
+.form-container button {
+  padding: 10px 20px;
+  background-color: #2D7495;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+.form-container button:disabled {
+  background-color: #c2c2c2;
+  cursor: not-allowed;
+}
+.student-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.student-card {
+  border: 1px solid #cecccc;
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: white;
+}
+.student-card h3 {
+  margin-top:auto;
+  color: #030164;
+}
+.student-card p {
+  margin:auto;
+}
+.student-card button {
+  margin-top:auto;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.student-card button:hover {
+  background-color: #363199;
+}
+.high-grade {
+  border-left: 5px solid #2A7C13;
+}
+.medium-grade {
+  border-left: 5px solid #E8E085;
+}
+.low-grade {
+  border-left: 5px solid #E11A45;
+}
+.excellent {
+  color: #7D9C65;
+  font-weight: bold;
+}
